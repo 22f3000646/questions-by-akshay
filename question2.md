@@ -53,6 +53,9 @@ def decode_matrix_script(r: int, c: int, matrix: list) -> str:
             last_char_alphanumeric = False
     
     return ''.join(result).strip() </sol>
+<suffix_invisible>
+{% include './utils.py.jinja' %}
+</suffix_invisible>
 </template>
 ```
 

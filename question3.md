@@ -35,6 +35,9 @@ def count_char_frequencies(s: str) -> None:
     # Sort and print the results
     for char in sorted(freq):
         print(f"{char}: {freq[char]}") </sol>
+<suffix_invisible>
+{% include './utils.py.jinja' %}
+</suffix_invisible>
 </template>
 ```
 

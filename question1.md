@@ -35,6 +35,9 @@ split_and_join(hello world) #hello-world
 l = input()
 print(split_and_join(l))
 </suffix>
+<suffix_invisible>
+{% include './utils.py.jinja' %}
+</suffix_invisible>
 </template>
 ```
 

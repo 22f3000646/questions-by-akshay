@@ -69,6 +69,9 @@ nm = input().split()
     for row in arr_sorted:
         print(" ".join(map(str, row))) 
     </sol>
+<suffix_invisible>
+{% include './utils.py.jinja' %}
+</suffix_invisible>
 </template>
 ```
 

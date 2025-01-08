@@ -46,7 +46,7 @@ print(split_and_join(l))
 ## Input 1
 
 ```
-is_equal("this is a string","this-is-a-string")
+is_equal(split_and_join("this is a string"),"this-is-a-string")
 
 ```
 
@@ -61,7 +61,7 @@ this-is-a-string
 ## Input 2
 
 ```
-is_equal("hello world","hello-world")
+is_equal(split_and_join("hello world"),"hello-world")
 
 ```
 
@@ -76,7 +76,7 @@ hello-world
 ## Input 3
 
 ```
-is_equal("python is fun","python-is-fun")
+is_equal(split_and_join("python is fun"),"python-is-fun")
 
 ```
 
@@ -93,7 +93,7 @@ python-is-fun
 ## Input 1
 
 ```
-is_equal("learning python is awesome","learning-python-is-awesome")
+is_equal(split_and_join("learning python is awesome"),"learning-python-is-awesome")
 
 ```
 
@@ -107,7 +107,7 @@ learning-python-is-awesome
 ## Input 2
 ```
 
-is_equal("split and join example","split-and-join-example")
+is_equal(split_and_join("split and join example"),"split-and-join-example")
 
 ```
 
@@ -121,7 +121,7 @@ split-and-join-example
 ## Input 3
 
 ```
-is_equal("we are learning new skills","we-are-learning-new-skills")
+is_equal(split_and_join("we are learning new skills"),"we-are-learning-new-skills")
 
 ```
 
@@ -135,7 +135,7 @@ we-are-learning-new-skills
 ## Input 4
 
 ```
-is_equal("let's join and split words","let's-join-and-split-words")
+is_equal(split_and_join("let's join and split words"),"let's-join-and-split-words")
 
 ```
 
@@ -149,7 +149,7 @@ let's-join-and-split-words
 ## Input 5
 
 ```
-is-equal("string manipulation task","string-manipulation-task")
+is-equal("split_and_join("string manipulation task"),"string-manipulation-task")
 
 ```
 
